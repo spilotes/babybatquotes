@@ -336,6 +336,395 @@ const quotes = [
     work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
+
+  /* =========================================================
+     O HOMEM DE GELO E SUA FRIA COLEGA DE TRABALHO
+  ========================================================= */
+
+  {
+    quote: "Até o coração mais frio pode guardar um lugar onde a primavera ainda chega.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Há pessoas que tornam um dia comum um pouco mais quente simplesmente por estarem perto.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Nem todo silêncio significa distância; às vezes, ele é apenas uma forma tímida de permanecer junto.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Algumas emoções aparecem devagar, como neve que se acumula sem que percebamos.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "O cotidiano parece diferente quando existe alguém que esperamos encontrar todos os dias.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Talvez gostar de alguém seja perceber que até os pequenos acontecimentos passaram a importar.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Há uma delicadeza estranha em duas pessoas que ainda não sabem dizer o que sentem.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Nem sempre precisamos de grandes acontecimentos. Às vezes, basta dividir uma tarde.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "O frio pode permanecer do lado de fora quando alguém encontra um pouco de calor para compartilhar.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Existem sentimentos que começam pequenos demais para receber um nome e importantes demais para serem ignorados.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+
+  /* =========================================================
+     HIRAYASUMI
+  ========================================================= */
+
+  {
+    quote: "Nem toda vida precisa correr para algum lugar.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Talvez viver bem seja aprender a enxergar aquilo que acontece enquanto esperamos o futuro.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Há dias que não parecem importantes até percebermos que foram exatamente os dias de que precisávamos.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Uma casa também pode ser feita de pessoas, silêncios, comida e pequenas rotinas.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Não saber exatamente para onde ir não significa que estamos perdidos.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Às vezes, descansar é uma maneira de continuar.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "A vida cotidiana esconde pequenas coisas que só percebemos quando finalmente diminuímos o passo.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Talvez felicidade não seja chegar a algum lugar, mas conseguir gostar de estar onde estamos.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Existem encontros que não mudam o mundo, mas mudam a maneira como atravessamos o dia.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "A vida também acontece nas pausas entre uma coisa e outra.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+
+  /* =========================================================
+     SAINT SEIYA
+  ========================================================= */
+
+  {
+    quote: "Mesmo diante de um destino escrito, ainda existe um coração capaz de escolher.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "O Cosmo não é apenas aquilo que existe dentro de nós, mas aquilo que decidimos proteger.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Uma chama pequena ainda pode desafiar uma noite inteira.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Os verdadeiros guerreiros não lutam porque desconhecem o medo, mas porque encontram algo que vale mais do que ele.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "O impossível começa a perder força quando alguém se recusa a aceitá-lo.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Uma constelação distante ainda pode servir de guia para quem atravessa a escuridão.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "A força de um Cavaleiro não está somente em sua armadura, mas naquilo que permanece de pé quando ela se quebra.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Há batalhas que parecem perdidas até que alguém encontre forças para dar mais um passo.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "O Cosmo pode nascer no silêncio de alguém que decidiu não abandonar seus companheiros.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Entre as estrelas e a terra existe apenas uma distância; entre desistir e continuar, existe uma escolha.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Mesmo uma existência pequena pode fazer o universo ao redor vibrar.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "O valor de uma promessa aparece quando cumpri-la exige enfrentar aquilo que mais tememos.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+
+  /* =========================================================
+     YOUR NAME
+  ========================================================= */
+
+  {
+    quote: "Algumas pessoas chegam até nós antes mesmo de sabermos que estávamos procurando por elas.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Talvez existam encontros que o tempo tenta desfazer e o coração insiste em lembrar.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Mesmo quando a memória desaparece, certas ausências continuam parecendo familiares.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Há pessoas que reconhecemos antes de conseguirmos explicar de onde vem essa sensação.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "O tempo pode separar duas pessoas, mas não consegue impedir que uma procure pela outra.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Algumas lembranças parecem sonhos porque foram grandes demais para caber em palavras.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Talvez procurar alguém seja também uma maneira de descobrir quem somos.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Existem distâncias que nenhum mapa consegue medir.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Quando duas vidas se cruzam, até aquilo que parecia acaso pode adquirir significado.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Alguns nomes permanecem dentro de nós mesmo quando já não conseguimos lembrar por quê.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+
+  /* =========================================================
+     ATELIER OF WITCH HAT
+  ========================================================= */
+
+  {
+    quote: "A magia começa quando alguém decide olhar para aquilo que todos disseram ser impossível.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "Conhecimento pode ser uma porta, mas também pode ser uma responsabilidade.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "Nem toda pessoa que deseja criar algo entende imediatamente o peso de suas próprias mãos.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "A beleza de uma criação não elimina os perigos de não compreender como ela funciona.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "Aprender é aceitar que aquilo que parecia simples pode esconder um mundo inteiro.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "Uma regra pode proteger alguém, mas também pode impedir que outra pessoa descubra seu próprio caminho.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "O talento pode abrir uma porta; é o cuidado que determina o que fazemos depois de atravessá-la.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "Criar algo novo exige mais do que habilidade: exige compreender aquilo que nossas escolhas podem transformar.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "Às vezes, o maior obstáculo para aprender é acreditar que já sabemos o suficiente.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "A magia pode parecer impossível até o instante em que alguém aprende a enxergar seus princípios.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+
+  /* =========================================================
+     MISTURADAS — BABY BAT ARCHIVE
+  ========================================================= */
+
+  {
+    quote: "Há mundos inteiros escondidos nas coisas que aprendemos a observar.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "O universo parece enorme até descobrirmos que carregamos uma pequena parte dele dentro do peito.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Talvez algumas pessoas sejam estrelas que só conseguimos enxergar depois que a noite chega.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  },
+
+  {
+    quote: "Toda criação começa como uma possibilidade que alguém teve coragem de levar a sério.",
+    work: "Atelier of Witch Hat",
+    author: "Kamome Shirahama"
+  },
+
+  {
+    quote: "O cotidiano pode ser silencioso sem ser vazio.",
+    work: "Hirayasumi",
+    author: "Keigo Shinzo"
+  },
+
+  {
+    quote: "Há calor em lugares inesperados, até mesmo onde todos esperavam encontrar apenas gelo.",
+    work: "O Homem de Gelo e Sua Fria Colega de Trabalho",
+    author: "Kōcha Agasawa"
+  },
+
+  {
+    quote: "Uma pessoa pode parecer pequena diante das estrelas e ainda assim carregar um universo inteiro.",
+    work: "Saint Seiya",
+    author: "Masami Kurumada"
+  },
+
+  {
+    quote: "Talvez o destino seja apenas o nome que damos às coisas que ainda não conseguimos compreender.",
+    work: "Your Name.",
+    author: "Makoto Shinkai"
+  }
 ];
 
 /* =========================================================
