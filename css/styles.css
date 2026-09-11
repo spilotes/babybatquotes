@@ -1,0 +1,708 @@
+/* =========================================================
+       RESET
+    ========================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  font-family: "Inter", sans-serif;
+
+  color: #c9d1d9;
+
+  background:
+    radial-gradient(circle at 50% 35%, rgba(93, 24, 130, 0.2), transparent 32%),
+    radial-gradient(circle at 15% 85%, rgba(74, 10, 94, 0.15), transparent 28%),
+    radial-gradient(circle at 85% 15%, rgba(74, 10, 94, 0.12), transparent 25%),
+    #080808;
+
+  position: relative;
+}
+
+/* =========================================================
+       TEXTURA DO FUNDO
+    ========================================================= */
+
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.07) 0.6px,
+    transparent 0.6px
+  );
+
+  background-size: 5px 5px;
+
+  opacity: 0.22;
+
+  z-index: 0;
+}
+
+/* =========================================================
+       LINHAS DECORATIVAS
+    ========================================================= */
+
+body::after {
+  content: "";
+
+  position: fixed;
+
+  top: 0;
+  left: 50%;
+
+  width: 1px;
+  height: 100vh;
+
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(150, 70, 190, 0.12),
+    transparent
+  );
+
+  pointer-events: none;
+
+  z-index: 0;
+}
+
+/* =========================================================
+       CONTAINER
+    ========================================================= */
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================================
+       HEADER
+    ========================================================= */
+
+header {
+  width: 100%;
+
+  padding: 32px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgba(201, 209, 217, 0.08);
+
+  position: relative;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.brand-symbol {
+  width: 28px;
+  height: 28px;
+
+  position: relative;
+}
+
+/* pequeno morcego estilizado */
+
+.brand-symbol::before,
+.brand-symbol::after {
+  content: "";
+
+  position: absolute;
+
+  top: 7px;
+
+  width: 13px;
+  height: 15px;
+
+  background: #c9d1d9;
+
+  transition: 0.4s ease;
+}
+
+.brand-symbol::before {
+  left: 0;
+
+  clip-path: polygon(0 0, 100% 40%, 75% 100%, 45% 72%, 20% 100%);
+}
+
+.brand-symbol::after {
+  right: 0;
+
+  clip-path: polygon(0 40%, 100% 0, 80% 100%, 55% 72%, 25% 100%);
+}
+
+.brand:hover .brand-symbol::before,
+.brand:hover .brand-symbol::after {
+  background: #9b4dcc;
+
+  filter: drop-shadow(0 0 7px rgba(155, 77, 204, 0.7));
+}
+
+.brand-name {
+  font-family: "Cinzel", serif;
+
+  font-size: 0.78rem;
+
+  letter-spacing: 0.22rem;
+
+  color: #c9d1d9;
+
+  text-transform: uppercase;
+}
+
+.brand-name span {
+  color: #8f43b8;
+}
+
+.header-label {
+  font-size: 0.65rem;
+
+  letter-spacing: 0.2rem;
+
+  color: rgba(201, 209, 217, 0.4);
+
+  text-transform: uppercase;
+}
+
+/* =========================================================
+       MAIN
+    ========================================================= */
+
+main {
+  flex: 1;
+
+  width: 100%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  padding: 80px 30px 70px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* =========================================================
+       INTRO
+    ========================================================= */
+
+.intro {
+  text-align: center;
+
+  margin-bottom: 65px;
+
+  animation: introAppear 1.2s ease forwards;
+}
+
+.eyebrow {
+  display: block;
+
+  margin-bottom: 20px;
+
+  font-size: 0.68rem;
+
+  letter-spacing: 0.42rem;
+
+  text-transform: uppercase;
+
+  color: #8f43b8;
+}
+
+.intro h1 {
+  font-family: "Cinzel", serif;
+
+  font-size: clamp(2rem, 5vw, 4rem);
+
+  font-weight: 500;
+
+  letter-spacing: 0.08rem;
+
+  line-height: 1.15;
+
+  color: #e2e5e8;
+
+  text-shadow: 0 0 30px rgba(143, 67, 184, 0.13);
+}
+
+.intro p {
+  margin-top: 20px;
+
+  font-size: 0.9rem;
+
+  font-weight: 300;
+
+  letter-spacing: 0.04rem;
+
+  color: rgba(201, 209, 217, 0.48);
+}
+
+/* =========================================================
+       COFRE
+    ========================================================= */
+
+.vault {
+  width: 100%;
+
+  position: relative;
+
+  padding: 65px 70px 60px;
+
+  border: 1px solid rgba(201, 209, 217, 0.11);
+
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.025),
+    rgba(255, 255, 255, 0.008)
+  );
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    inset 0 1px rgba(255, 255, 255, 0.025);
+
+  backdrop-filter: blur(8px);
+
+  animation: vaultAppear 1.3s ease forwards;
+}
+
+/* borda interna */
+
+.vault::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 8px;
+
+  border: 1px solid rgba(143, 67, 184, 0.08);
+
+  pointer-events: none;
+}
+
+/* =========================================================
+       MARCA SUPERIOR
+    ========================================================= */
+
+.vault-label {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  margin-bottom: 50px;
+}
+
+.vault-line {
+  width: 70px;
+  height: 1px;
+
+  background: linear-gradient(to right, transparent, rgba(143, 67, 184, 0.55));
+}
+
+.vault-line:last-child {
+  background: linear-gradient(to left, transparent, rgba(143, 67, 184, 0.55));
+}
+
+.vault-label span {
+  font-family: "Cinzel", serif;
+
+  font-size: 0.62rem;
+
+  letter-spacing: 0.3rem;
+
+  color: rgba(201, 209, 217, 0.5);
+
+  text-transform: uppercase;
+}
+
+/* =========================================================
+       ÁREA DA FRASE
+    ========================================================= */
+
+.quote-area {
+  min-height: 260px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+#quote {
+  max-width: 780px;
+
+  font-family: "Cinzel", serif;
+
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+
+  font-weight: 400;
+
+  line-height: 1.8;
+
+  letter-spacing: 0.025rem;
+
+  color: #e0e3e6;
+
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+
+  position: relative;
+}
+
+#quote.empty {
+  opacity: 0;
+}
+
+#quote.visible {
+  opacity: 1;
+
+  animation: quoteIn 0.7s ease forwards;
+}
+
+/* aspas */
+
+.quote-mark {
+  font-family: Georgia, serif;
+
+  font-size: 5rem;
+
+  line-height: 1;
+
+  color: rgba(143, 67, 184, 0.18);
+
+  position: absolute;
+
+  top: -40px;
+  left: -45px;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+       AUTOR / OBRA
+    ========================================================= */
+
+.source {
+  margin-top: 35px;
+
+  opacity: 0;
+
+  transition: opacity 0.5s ease;
+}
+
+.source.visible {
+  opacity: 1;
+}
+
+.work {
+  display: block;
+
+  font-size: 0.75rem;
+
+  letter-spacing: 0.18rem;
+
+  text-transform: uppercase;
+
+  color: #9b4dcc;
+}
+
+.author {
+  display: block;
+
+  margin-top: 7px;
+
+  font-size: 0.7rem;
+
+  font-weight: 300;
+
+  letter-spacing: 0.1rem;
+
+  color: rgba(201, 209, 217, 0.38);
+}
+
+/* =========================================================
+       CONTADOR
+    ========================================================= */
+
+.counter {
+  margin-top: 35px;
+
+  font-size: 0.6rem;
+
+  letter-spacing: 0.25rem;
+
+  text-transform: uppercase;
+
+  color: rgba(201, 209, 217, 0.25);
+}
+
+#counter {
+  color: rgba(155, 77, 204, 0.8);
+}
+
+/* =========================================================
+       BOTÕES
+    ========================================================= */
+
+.actions {
+  margin-top: 55px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+button {
+  border: 1px solid rgba(201, 209, 217, 0.16);
+
+  background: rgba(255, 255, 255, 0.025);
+
+  color: #c9d1d9;
+
+  padding: 14px 25px;
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 0.65rem;
+
+  font-weight: 500;
+
+  letter-spacing: 0.2rem;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+button:hover {
+  border-color: rgba(155, 77, 204, 0.55);
+
+  background: rgba(155, 77, 204, 0.08);
+
+  color: #e4d8eb;
+
+  box-shadow: 0 0 25px rgba(143, 67, 184, 0.12);
+
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.primary {
+  background: rgba(143, 67, 184, 0.1);
+
+  border-color: rgba(143, 67, 184, 0.35);
+}
+
+/* =========================================================
+       DICA
+    ========================================================= */
+
+.shortcut {
+  margin-top: 35px;
+
+  text-align: center;
+
+  font-size: 0.58rem;
+
+  letter-spacing: 0.12rem;
+
+  color: rgba(201, 209, 217, 0.22);
+}
+
+.shortcut kbd {
+  display: inline-block;
+
+  margin: 0 3px;
+
+  padding: 3px 7px;
+
+  border: 1px solid rgba(201, 209, 217, 0.12);
+
+  color: rgba(201, 209, 217, 0.4);
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 0.55rem;
+}
+
+/* =========================================================
+       FOOTER
+    ========================================================= */
+
+footer {
+  width: 100%;
+
+  padding: 25px 30px 35px;
+
+  text-align: center;
+
+  border-top: 1px solid rgba(201, 209, 217, 0.06);
+}
+
+.footer-brand {
+  font-family: "Cinzel", serif;
+
+  font-size: 0.65rem;
+
+  letter-spacing: 0.25rem;
+
+  color: rgba(201, 209, 217, 0.3);
+
+  text-transform: uppercase;
+}
+
+.footer-brand span {
+  color: rgba(143, 67, 184, 0.7);
+}
+
+.footer-description {
+  margin-top: 9px;
+
+  font-size: 0.58rem;
+
+  letter-spacing: 0.08rem;
+
+  color: rgba(201, 209, 217, 0.17);
+}
+
+/* =========================================================
+       BAT DECORATIVO
+    ========================================================= */
+
+.bat {
+  position: fixed;
+
+  width: 80px;
+  height: 35px;
+
+  left: 50%;
+  bottom: 75px;
+
+  transform: translateX(-50%);
+
+  opacity: 0.035;
+
+  pointer-events: none;
+
+  z-index: 0;
+}
+
+.bat::before,
+.bat::after {
+  content: "";
+
+  position: absolute;
+
+  width: 40px;
+  height: 30px;
+
+  background: #9b4dcc;
+}
+
+.bat::before {
+  left: 0;
+
+  clip-path: polygon(100% 50%, 80% 0, 50% 35%, 30% 0, 0 50%, 35% 100%, 50% 65%);
+}
+
+.bat::after {
+  right: 0;
+
+  clip-path: polygon(0 50%, 20% 0, 50% 35%, 70% 0, 100% 50%, 65% 100%, 50% 65%);
+}
+
+/* =========================================================
+       ANIMAÇÕES
+    ========================================================= */
+
+@keyframes introAppear {
+  from {
+    opacity: 0;
+
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@keyframes vaultAppear {
+  from {
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    filter: blur(4px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+
+    filter: blur(0);
+  }
+}
+
+@keyframes quoteIn {
+  from {
+    opacity: 0;
+
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}

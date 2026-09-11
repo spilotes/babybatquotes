@@ -1,0 +1,99 @@
+/* =========================================================
+       RESPONSIVO
+    ========================================================= */
+
+@media (max-width: 700px) {
+  header {
+    padding: 25px 20px;
+  }
+
+  .header-label {
+    display: none;
+  }
+
+  main {
+    padding: 60px 18px 50px;
+  }
+
+  .intro {
+    margin-bottom: 45px;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    max-width: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 1.7;
+  }
+
+  .vault {
+    padding: 45px 25px 40px;
+  }
+
+  .vault::before {
+    inset: 5px;
+  }
+
+  .vault-label {
+    margin-bottom: 35px;
+  }
+
+  .vault-line {
+    width: 35px;
+  }
+
+  #quote {
+    font-size: 1.15rem;
+
+    line-height: 1.8;
+  }
+
+  .quote-mark {
+    font-size: 3.5rem;
+
+    top: -25px;
+    left: -20px;
+  }
+
+  .quote-area {
+    min-height: 290px;
+  }
+
+  .actions {
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+
+    max-width: 280px;
+  }
+
+  .brand-name {
+    font-size: 0.65rem;
+
+    letter-spacing: 0.16rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+
+    scroll-behavior: auto !important;
+  }
+}
