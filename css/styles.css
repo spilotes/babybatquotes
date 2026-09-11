@@ -237,7 +237,7 @@ main {
 .intro h1 {
   font-family: "Cinzel", serif;
 
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 3rem);
 
   font-weight: 500;
 
