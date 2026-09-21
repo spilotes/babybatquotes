@@ -119,6 +119,11 @@ header {
   gap: 13px;
 }
 
+.brand-mark img {
+  position: relative;
+  width: 42px;
+}
+
 .brand-symbol {
   width: 28px;
   height: 28px;
